@@ -7,15 +7,27 @@
 
 <body>
 <div class="genelDiv" align="center">
-		<h2 class="baslik">TARIMSAL İLAÇLAR</h2>
-        <form method="post">
-		  <label for="kMail">Email</label>
-			<input type="text" name="kMail" id="kMail"><br />
-			<label for="kSifre">Şifre</label>
-			<input type="password" name="kSifre" id="kSifre"><br />
-			<button type="button" id="telGirisi">Giriş Yap</button>
-            </form>
-            <a href="kaydol.php">KAYDOL</a> 
+		<table width="274" border="0">
+		  <tr>
+		    <td colspan="2"><h2><span class="baslik">TARIMSAL İLAÇLAR</span></h2></td>
+	      </tr>
+		  <tr>
+		    <td width="83"><label for="kMail">Email</label></td>
+		    <td width="181"><input type="text" name="kMail" id="kMail" /></td>
+	      </tr>
+		  <tr>
+		    <td><label for="kSifre3">Şifre</label></td>
+		    <td><input type="password" name="kSifre" id="kSifre" /></td>
+	      </tr>
+		  <tr>
+		    <td colspan="2" align="center"><button type="button" id="giris">Giriş Yap</button></td>
+	      </tr>
+		  <tr>
+		    <td colspan="2" align="center"><p><a href="kaydol.php">KAYDOL</a></p></td>
+	      </tr>
+  </table>
+		<h2 class="baslik"><br />
+        </h2>
 </div>
 </body>
 </html>
