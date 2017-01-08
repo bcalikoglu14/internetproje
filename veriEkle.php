@@ -9,7 +9,7 @@
 <div align="center">
 <table width="278" height="148" border="0">
   <tr>
-    <td colspan="2" align="center">İlaç Ekle</td>
+    <td colspan="2" align="center"><h1>İLAÇ EKLE</h1></td>
   </tr>
   <tr>
     <td width="94">İlaç Adı:</td>

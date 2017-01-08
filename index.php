@@ -2,32 +2,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>TARIMSAL İLAÇLAR</title>
+<title>TARIMSAL İLAÇ</title>
+<style type="text/css">
+#anaDiv {
+	background-color: #0C6;
+	height: auto;
+	width: auto;
+}
+#menu {
+	background-color: #C66;
+	height: 100px;
+	width: auto;
+}
+#icerik {
+	background-color: #FFC;
+	height: auto;
+	width: auto;
+}
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body>
-<div class="genelDiv" align="center">
-		<table width="274" border="0">
-		  <tr>
-		    <td colspan="2"><h2><span class="baslik">TARIMSAL İLAÇLAR</span></h2></td>
-	      </tr>
-		  <tr>
-		    <td width="83"><label for="kMail">Email</label></td>
-		    <td width="181"><input type="text" name="kMail" id="kMail" /></td>
-	      </tr>
-		  <tr>
-		    <td><label for="kSifre3">Şifre</label></td>
-		    <td><input type="password" name="kSifre" id="kSifre" /></td>
-	      </tr>
-		  <tr>
-		    <td colspan="2" align="center"><button type="button" id="giris">Giriş Yap</button></td>
-	      </tr>
-		  <tr>
-		    <td colspan="2" align="center"><p><a href="kaydol.php">KAYDOL</a></p></td>
-	      </tr>
-  </table>
-		<h2 class="baslik"><br />
-        </h2>
+<div id="anaDiv">
+  <div id="menu" align="center">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li><a href="giris.php" target="icerik">KULLANICI</a>      </li>
+      <li><a href="kaydol.php" target="icerik">KAYDOL</a></li>
+      <li><a href="veriEkle.php" target="icerik">VER&#304;  EKLEME</a></li>
+</ul>
+  </div>
+  <div id="icerik"><iframe name="icerik" height="700" width="1330" src="anasayfa.php"></iframe></div>
 </div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
 </body>
 </html>
